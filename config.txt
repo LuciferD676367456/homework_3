@@ -1,0 +1,7 @@
+def max_value := 100;
+def greeting := "Hello, world!";
+settings: $[
+    limit: @{max_value},
+    message: @{greeting},
+    data: #(10, 20, 30, @{max_value})
+];
